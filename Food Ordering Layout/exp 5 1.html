@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Online Food Ordering</title>
+    <link rel="icon" href="./assets/photo2.jpg" />
+    <script>
+      function validate() 
+    {
+        event.preventDefault();
+        var name = document.getElementById("name").value;
+        var phone = document.getElementById("phone").value;
+        var otp = document.getElementById("otp").value;
+        if (name.length < 1)
+        {
+          alert("Name can not be empty");
+        } 
+        else if (phone.length != 10)
+        {
+            alert("Phone number must be exactly 10 numbers");
+        }
+        else
+        {
+            alert("Success . You will be redirected");
+            location.replace("./exp5 2.html");
+        }
+    }
+
+    </script>
+    <style>
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+
+      input[type="number"] {
+        -moz-appearance: textfield;
+      }
+    </style>
+  </head>
+  <body style="background-color: grey; padding-top: 10%">
+    <h1><center>Online Food Ordering</center></h1>
+    <br />
+    <br />
+    <div>
+      <form method="POST" onsubmit="return validate()">
+        <center>
+          <label for="name"> Name&nbsp;&nbsp; :</label>
+          <input id="name" type="text" /><br /><br />
+          <label for="phonenumber"> Mobile :</label>
+          <input id="phone" type="number" /><br /><br />
+          <label> OTP &nbsp;&nbsp;&nbsp;:</label>
+          <input id="otp" type="number" required/><br /><br /><br />
+          <input type="submit" name="submit" value="submit" />
+        </center>
+      </form>
+    </div>
+  </body>
+</html>
