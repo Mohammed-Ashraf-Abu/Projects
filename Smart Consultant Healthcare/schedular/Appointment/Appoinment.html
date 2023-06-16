@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Appoinment</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <center>
+            <br><br><br>
+           <div class="container" style="width: 30%;height: 10px; margin-left:45px;border-radius: 3vh; ">
+            <br>
+              <h3 style="font-style: italic; font-size: 170%;">Appoinment Schedular</h3>
+              <br>
+              <input type="text" id="notification-title" style="height:5vh;width:50%" placeholder="Appoinment Name  ">
+              <br><br>
+              <input type="date" id="notification-date" style="height:5vh;width:50%">
+              <br><br>
+              <input type="time" id="notification-time" style="height:5vh;width:50%">
+            <br><br>
+            <button  id="send-notification" style="height:5vh;width:50%;background:#d65cad;">Schedule</button>
+           </div>
+          </center>
+
+          <script>
+            const sendNotificationBtn = document.getElementById('send-notification');
+            const notificationDateInput = document.getElementById('notification-date');
+            const notificationTimeInput = document.getElementById('notification-time');
+            const notificationTitleInput = document.getElementById('notification-title');
+      
+            sendNotificationBtn.addEventListener('click', () => {
+              const notificationDate = notificationDateInput.value;
+              const notificationTime = notificationTimeInput.value;
+              const notificationTitle = notificationTitleInput.value;
+      
+              // Validate the user input
+              if (!notificationDate || !notificationTime || !notificationTitle) {
+                alert('Please enter a valid date, time, and title.');
+                return;
+              }
+      
+              // Schedule the notification
+              const now = new Date();
+              const notificationDateString = `${notificationDate} ${notificationTime}`;
+              const notificationDateObject = new Date(notificationDateString);
+              const delay = notificationDateObject.getTime() - now.getTime();
+      
+              setTimeout(() => {
+                Notification.requestPermission().then(permission => {
+                  if (permission === 'granted') {
+                    const notification = new Notification(notificationTitle, { body: " Its time for the Appointment... Get Ready..! " });
+                  }
+                });
+              }, delay);
+            });
+          </script>
+  </body>
+</html>

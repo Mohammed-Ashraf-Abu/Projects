@@ -1,0 +1,11 @@
+body{
+    background-image:url("medicine.jpg");
+    background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+       margin-top:150px;
+}
+.container{
+    background-color: #bad4e2;
+    align-content: center;
+}

@@ -1,0 +1,11 @@
+body{
+    background-image:url("appoinment.avif");
+    background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+       padding-bottom: 25%;
+}
+.container{
+    background-color: #cbcdcc;
+    align-content: center;
+}

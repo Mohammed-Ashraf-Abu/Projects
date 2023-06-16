@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Medicine Schedule</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <center>
+            <br><br><br>
+           <div class="container" style="width: 30%;height: 60vh; margin-left : 450px;border-radius: 3vh; ">
+            <br>
+              <h3 style="font-style: italic; font-size: 170%;">Medicine Schedular</h3>
+              <br>
+              <input type="text" id="notification-title" style="height:5vh;width:50%" placeholder="Enter tablet with dosage ">
+              <br><br>
+              <input type="time" id="notification-time" style="height:5vh;width:50%" placeholder="Time " name="time">
+            <br><br>
+            <button  id="send-notification" style="height:5vh;width:50%;background:#d65c5cb7;">Schedule</button>
+           </div>
+        </center>
+
+    <script>
+      const sendNotificationBtn = document.getElementById('send-notification');
+      const notificationTimeInput = document.getElementById('notification-time');
+      const notificationTitleInput = document.getElementById('notification-title');
+
+      sendNotificationBtn.addEventListener('click', () => {
+        const notificationTime = notificationTimeInput.value;
+        const notificationTitle = notificationTitleInput.value;
+
+        // Validate the user input
+        if (!notificationTime || !notificationTitle) {
+          alert('Please enter a valid time and title.');
+          return;
+        }
+
+        // Schedule the notification
+        const now = new Date();
+        const notificationDate = new Date(`${now.toDateString()} ${notificationTime}`);
+        const delay = notificationDate.getTime() - now.getTime();
+
+        setTimeout(() => {
+          Notification.requestPermission().then(permission => {
+            if (permission === 'granted') {
+              const notification = new Notification(notificationTitle,{
+                body:"It's time to follow your medication regimen...!"
+              });
+            }
+          });
+        }, delay);
+      });
+    </script>
+  </body>
+</html>

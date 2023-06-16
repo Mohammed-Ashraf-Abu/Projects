@@ -1,0 +1,11 @@
+body{
+    background-image:url("pink.jpg");
+    background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+       margin-top:150px;
+}
+.container{
+    background-color: #ff88b6;
+    align-content: center;
+}

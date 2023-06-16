@@ -1,0 +1,11 @@
+body{
+    background-image:url("sign-up.jpg");
+    background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+       margin-top:150px;
+}
+.container{
+    background-color: #e6ccff;
+    align-content: center;
+}
