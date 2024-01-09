@@ -1,0 +1,580 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <title>Document</title> 
+
+    </head>
+    <meta name="viewport" content="width=device-width",initial-scale=1.0">  
+    <body>
+        <style>
+          @media only screen and (max-width: 576px)
+           {
+              p{
+                font-size:14px;
+              }
+            }
+           @media only screen and (max-width: 765px)
+           {
+               div_example {
+                display: none;
+               }
+            }
+        </style>
+        <div class="container" style="width: 100%;height: 100vh; margin-left:50px;">
+            <div class="row" >
+                <div class="col" style=" border-bottom: 2px solid gray;">
+                    <img src="https://th.bing.com/th/id/R.888697fb00f3e9b902ab2314c3a93d00?rik=SG2k903oBpVIjQ&riu=http%3a%2f%2fcdn04.androidauthority.net%2fwp-content%2fuploads%2f2017%2f08%2fnew-youtube-logo.jpg&ehk=y1C%2fuXpCZpXuzGNQdYXSsfx7g2jqs7dZWRnJXuhoK4U%3d&risl=&pid=ImgRaw&r=0" width="200 height="200">
+                </div>
+            </div>
+            <nav class="navbar navbar-expand-sm bg-light">
+                <div class="container-fluid"  >
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#" >Our commitments</a></li>
+                        <li class="nav-item"><a  class="nav-link" href="#">Product features</a></li>
+                        <li class="nav-item"><a  class="nav-link" href="#">User settings</a></li>
+                        <li class="nav-item"><a   class="nav-link" href="#">Rules and policies</a></li>
+                        <li class="nav-item" ><a class="nav-link" href="#">Pogress and impact</a></li>
+                    </ul>
+                </div>
+            </nav>  
+            <!--<div class="row" style=" border-top: 2px solid gray;" >
+                <div class="col-2">
+                    <p style="color:gray">Our mission</p>
+                </div>
+                <div class="col-2">
+                    <p style="color:gray">Our commitments</p>
+                </div>
+                <div class="col-1">
+                    <p style="color:gray">Product features</p>
+                </div>
+                <div class="col-1">
+                    <p style="color:gray">user settings</p>
+                </div>
+                <div class="col-2">
+                    <p style="color:gray">Rules and policies</p>
+                </div>
+                <div class="col-2">
+                    <p style="color:gray">Progress and impact</p>
+                </div>
+                <div class="col">
+                    <p style="color:gray">Resources</p>
+                </div>
+            </div>
+            </div>-->
+            <div class="row" style=" border-top: 2px solid gray;">
+                <div class="col-sm-6">
+                    <h1><br><b>Ever wonder how YouTube works?</b></h1>
+                    <p>
+                        <br><br>Every day, millions of people come to YouTube to be informed, inspired or
+                         just plain delighted. Over time, questions have come up about how YouTube works, 
+                         so we've created this site to provide some answers – and to explain what 
+                         we're doing to foster a responsible platform that the users, creators and artists who
+                          make up our community can rely on.
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <p>
+                        <br>
+                        <img src="https://www.howitworksdaily.com/wp-content/uploads/2016/04/How-YouTube-works.jpg" width="500 height="500">
+                    
+                    </p>
+                </div>
+            </div>
+              <p> 
+                  <br><h4>Our Commitments<br></h4>
+                  <p><br>Discover what we're doing for our community</p>
+                </p>
+           <div class="row">
+               <div class="col-7" style="border-right: 2px solid lightslategray;" >
+                   <p>
+                       <b>Making YouTube Safer</b>
+                       <br><br><p>At the heart of our approach are the four Rs – we Remove content that violates our policies,
+                            Reduce the spread of harmful misinformation and borderline material, 
+                            up authoritative sources for news and information and Reward trusted creators.<br></p>
+                   </p>
+                   <div class="row">
+                       <div class="col-sm-4">
+                         <p style="color:blue;">
+                             <img src="https://thumbs.dreamstime.com/b/butterfly-net-stars-catch-hunt-chase-ideas-inspiration-symbol-achieve-goals-dreams-concept-black-vector-illustration-185078996.jpg" width="50 height="50">
+                              managing harmful content
+                        </p>
+                       </div>
+                       <div class="col-sm-4">
+                           <p style="color:blue;">
+                               <img src="https://yoursafetyexperts.com/wp-content/uploads/2018/08/Fire-Extinguisher-with-border.jpg" width="50 height="50">
+                               curbing extremist content
+                            </p>
+                       </div>
+                       <div class="col-sm-4">
+                            <p style="color:blue;">
+                                <img src="https://ppcdn.500px.org/385265/71bb8d7131e977c7dee20ec5f21ea1c79da0679e/5.jpg" width="50 height="50">
+                                fostering child safety
+                            </p>
+                       </div>
+                   </div>
+                   <div class="row">
+                       <div class="col-sm-4">
+                            <p style="color:blue;">
+                                <img src="https://i.ytimg.com/vi/YD_tMN6rHmI/hqdefault.jpg" width="50 height="50">
+                                preventing bias
+                            </p>
+                        </div>
+                        <div class="col-sm-4">
+                              <p style="color:blue;">
+                                  <img src="https://thumbs.dreamstime.com/b/group-young-people-14373351.jpg" width="50 height="50">
+                                  standing up to hate
+                                </p>
+                        </div>
+                        <div class="col-sm-4">
+                               <p style="color:blue;">
+                                   <img src="https://thumbs.dreamstime.com/z/kids-picking-apples-apple-tree-illustration-78349233.jpg" width="50 height="50">
+                                   sharing revenue
+                                </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <p style="color:blue;">
+                                <img src="https://www.sciencevision.at/wp-content/uploads/Fischer-Sonnenuntergang-Donau.jpg" width="50 height="50">
+                                fighting misinformation
+                            </p>
+                        </div>
+                        <div class="col-sm-4">
+                             <p style="color:blue;">
+                                <img src="https://th.bing.com/th/id/R.8ce1b436b6246793c3f4e6dabd07d908?rik=Nl6KFLtv1LZbXA&riu=http%3a%2f%2fmedia.gettyimages.com%2fphotos%2fstudio-shot-of-people-raising-their-hands-picture-id71416758&ehk=enXDB8%2bOIFqCxQ%2fgreXXkdkWADtkz3xiXvSCJYAEh%2fg%3d&risl=&pid=ImgRaw&r=0" width="50 height="50">
+                                 supporting political integrity
+                                </p>
+                        </div>
+                        <div class="col-sm-4">
+                             <p style="color:blue;">
+                                <img src="https://image.shutterstock.com/image-vector/heart-hand-vector-icon-illustration-260nw-1503630092.jpg" width="50 height="50">
+                                 responding to covid-19
+                            </p> 
+                        </div>
+                    </div>
+               </div>
+               <div class="col-sm-5">
+                    <b><br>Making YouTube more secure</b>
+                    <br><br><p>Whatever you're looking for on YouTube, we want you to find peace of mind while you're there.</p>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p style="color:blue;">
+                                <img src="https://static.vecteezy.com/system/resources/previews/000/554/708/original/lock-vector-icon.jpg" width="50 height="50">
+                                 protecting user data
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p style="color:blue;">
+                                <img src="https://th.bing.com/th/id/OIP.Cr1C5K43rS4jhryUHpKKigHaDZ?pid=ImgDet&rs=1" width="50 height="50">
+                                safeguarding copyright
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p style="color:blue;">
+                                <img src="https://th.bing.com/th/id/OIP.-GeZjzlFs7sAtvPNrzk-_QHaE7?pid=ImgDet&w=680&h=453&rs=1" width="50 height="50">
+                                promoting digital wellbeing
+                            </p><br><br>
+                        </div>
+                    </div>
+               </div>
+           </div>
+           <div class="row">
+               <div class="col-sm-6">
+                   <h4><b>Our products and policies</b></h4>
+                   <p>
+                       <br><br>We want you to have the best possible experience while you're using YouTube.
+                        So, our products help you find what you're looking for and stay in control of what you see.
+                         Meanwhile, our policies explain what you can and cannot do while you're there, so that everyone plays by the same rules.
+                        <br><br>
+                        Read on to find out how each of our products and policies works.
+                   </p>
+               </div>
+               <div class="col-sm-6">
+                <p>
+                    <img src="https://image.slidesharecdn.com/onebill-acs-presentation-121219150703-phpapp01/95/onebillacs-lifeline-program-34-638.jpg?cb=1443218792" width="500">
+                </p>
+               </div>
+           </div>
+           <div class="row">
+               <div class="col-sm-4">
+                    <h4>Product features</h4><br>
+                    <p style="color:blue;">YouTube Search</p><br>
+                    <p style="color: blue;">Recommended Videos</p><br>
+                    <p style="color: blue;">News and information</p><br>
+                    <p style="color: blue;">Monetisation for creaters</p><br>
+                    <p style="color: blue;">Youtube Live</p>
+               </div>
+               <div class="col-sm-4">
+                    <h4>User settings</h4><br>
+                    <p style="color:blue;">Privacy Control</p><br>
+                    <p style="color: blue;">Ad Settings</p><br>
+                    <p style="color: blue;">Parental controls</p><br>
+                    <p style="color: blue;">Auto-play</p>
+               </div>
+               <div class="col-sm-4">
+                    <h4>Rules and Policies</h4><br>
+                    <p style="color:blue;">Policies overview</p><br>
+                    <p style="color: blue;">Community Guideliness</p><br>
+                    <p style="color: blue;">Copyright</p><br>
+                    <p style="color: blue;">Monetisation policies</p><br>
+                    <p style="color: blue;">Legal removals</p>
+               </div>
+           </div>
+           <!--<div class="row">
+               <div class="col-sm-4">
+                  <p><br><br><b>Product Features</b> </p>
+               </div>
+               <div class="col-sm-4">
+                  <p><b><br><br>User Settings</b></p>
+               </div>
+               <div class="col-sm-4">
+                 <p><br> <br><b>Rules and Policies</b></p>
+               </div>
+           </div>
+           <div class="row">
+              <div class="col-sm-4">
+                  <p style="color:blue;"><br><br>YouTube Search</p>
+               </div>
+               <div class="col-sm-4">
+                   <p style="color:blue"><br><br>Privacy Controls</p>
+               </div>
+               <div class="col-sm-4">
+                  <p style="color:blue;"><br><br>Policies overview</p>
+               </div>
+           </div>
+           <div class="row">
+                <div class="col-sm-4">
+                   <p style="color:blue;">Recommented overview</p>
+                </div>
+                <div class="col-sm-4">
+                   <p style="color:blue;">Ad Settings</p>
+                </div>
+               <div class="col-sm-4">
+                   <p style="color:blue;">Community Settings</p>
+               </div>
+           </div>
+           <div class="row">
+              <div class="col-sm-4">
+                  <p style="color:blue;">News and Information</p>
+              </div>
+              <div class="col-sm-4">
+                   <p style="color:blue;">Parental controls</p>
+              </div>
+              <div class="col-sm-4">
+                   <p style="color:blue">Copyright</p>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <p style="color:blue;">Monetisation for creators</p>
+                </div>
+                <div class="col-sm-4">
+                   <p style="color:blue;">Auto-play</p>
+                </div>
+                <div class="col-sm-4">
+                   <p style="color:blue;">Monetisation policies</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                   <p style="color:blue;">YouTube Live</p>
+                </div>
+                <div class="col-sm-4">
+  
+                </div>
+                <div class="col-sm-4">
+                   <p style="color:blue;">Legal Removals</p>
+                </div>
+            </div>-->
+            <p>
+                <h4>Our prograss and impact</h4>
+                <p>
+                    <br><br>Find out more about how we're progressing on our commitment to responsibility 
+                    and the impact that YouTube has on culture, society and local economies.
+                </p>
+            </p>
+            <div class="row">
+                <div class="col-sm-4">
+                    <p>
+                        <br><br><br>
+                        <img src="https://www.ugaoo.com/knowledge-center/wp-content/uploads/2017/07/Softwood-cutting-making-a-cut.jpg" width="300 height="100">
+                        <br><br>
+                        <b>Progress on managing harmful content </b>
+                        <br><br>Key data points to show you how we're delivering on our responsibility efforts.
+                        <br><br>
+                        <p style="color:blue;">LEARN MORE</p>
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <p>
+                        <img src="https://avonstrongsvillemusic.org/wp-content/uploads/2015/04/music-kids-2006-cutout.png" width="300 height="100">
+                        <br><br>
+                        <b>Our impact</b>
+                        <br><br>Stories about how some of YouTube's creative entrepreneurs are transforming their lives and communities.
+                        <br><br>
+                        <p style="color:blue;">LEARN MORE</p>
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <p>
+                        <img src="https://img.freepik.com/free-vector/modern-space-rocket-with-flat-design_23-2147900378.jpg?size=338&ext=jpg" width="300 height="100">
+                        <br><br>
+                        <b>Culture and Trends</b>
+                        <br><br>Data, current trends and records that help you better understand the next generation of creators and artists.
+                        <br><br>
+                        <p style="color:blue;">LEARN MORE</p>
+                    </p>
+                </div>
+            </div>
+            <div class="row" style="background-color: black;">
+                <div class="col-sm-1">
+                    <p style="color:lightslategrey">connect</p>
+                </div>
+                <div class="col-sm-1">
+                    <p>
+                      <img src="https://th.bing.com/th/id/R.f830174350e426cb8ea64f7a52ac88d8?rik=LMsx6HmCu3K%2bag&riu=http%3a%2f%2flofrev.net%2fwp-content%2fphotos%2f2016%2f07%2ftwitter_logo.jpg&ehk=%2bS9vzAaM6EXERDK%2bAgT6emkMr7MLQl8iARbP8lIxSyU%3d&risl=&pid=ImgRaw&r=0" width="50 height="50"><br>
+                    </p>
+                </div>
+                <div class="col-sm-1">
+                    <p>
+                      <img src="https://augustakroc.org/wp-content/uploads/sites/2/2020/06/Instagram.jpg" width="50 height="40"><br>
+                    </p>
+                </div>
+                <div class="col">
+                    <p>
+                       <img src="https://clipartspub.com/images/facebook-logo-clipart-vector-8.png" width="50 height="50"><br>
+                    </p>
+                </div>
+            </div>
+            <div class="row" style="background-color: black; border-top: 2px solid gray;">
+                <div class="col-sm-2">
+                    <p style="color:blanchedalmond;"><b><br>AboutYouTube</b></p><br>
+                    <p style="color:lightslategrey">About</p><br><br>
+                    <p style="color:lightslategrey">Blog</p><br>
+                    <p style="color:lightslategrey">How Youtube Works</p><br>
+                    <p style="color:lightslategrey">Jobs</p><br>
+                    <p style="color:lightslategrey">Press</p><br>
+                    <p style="color:lightslategrey">Youtube Culture & Trends</p>
+                </div>
+                <div class="col-sm-2">
+                   <p style="color:blanchedalmond;"><b><br>Products</b></p><br>
+                   <p style="color:lightslategrey">YouTube Go</p><br><br>
+                   <p style="color:lightslategrey">YouTube Kids</p><br>
+                   <p style="color:lightslategrey">YouTube Music</p><br>
+                   <p style="color:lightslategrey">YouTube Oiginals</p><br>
+                   <p style="color:lightslategrey">YouTube Premium</p><br>
+                   <p style="color:lightslategrey">Youtube Select</p>
+                   <p style="color:lightslategrey">Youtube Studio</p>
+                   <p style="color:lightslategrey">Youtube TV</p>
+                </div>
+                <div class="col-sm-2">
+                    <p style="color:blanchedalmond;"><b><br>For Business</b></p><br>
+                    <p style="color:lightslategrey">Developers</p><br><br>
+                    <p style="color:lightslategrey">Youtube Advertising</p>
+                </div>
+                <div class="col-sm-2">
+                   <p style="color:blanchedalmond;"><b><br>For creaters</b></p><br>
+                   <p style="color:lightslategrey">Creating for YouTube Kids</p><br>
+                   <p style="color:lightslategrey">Creator Research</p><br>
+                   <p style="color:lightslategrey">Creator Services Directory</p><br>
+                   <p style="color:lightslategrey">YouTube Artists</p><br>
+                   <p style="color:lightslategrey">Youtube Creators</p>
+                   <p style="color:lightslategrey">Youtube NextUp</p>
+                   <p style="color:lightslategrey">Youtube VR</p>
+                </div>
+                <div class="col-sm-2">
+                    <p style="color:blanchedalmond;"><b><br>Our Commitments</b></p><br>
+                    <p style="color:lightslategrey">Creators fo Change</p><br><br>
+                   <p style="color:lightslategrey">CSAI Match</p><br>
+                   <p style="color:lightslategrey">Social impact</p><br>
+                </div>
+            </div>
+            <!--<div class="row" style="background-color: black; border-top: 2px solid gray;">
+                <div class="col-sm-3">
+                     <p style="color:blanchedalmond;"><b><br>AboutYouTube</b></p>
+                 </div>
+                <div class="col-sm-2">
+                    <p style="color:blanchedalmond;"><b><br>Products</b></p>
+                </div>
+                <div class="col-sm-2">
+                    <p style="color:blanchedalmond;"><b><br>For Business</b></p>
+                </div>
+                <div class="col-sm-2">
+                     <p style="color:blanchedalmond;"><b><br>For Creaters</b></p>
+                </div>
+                <div class="col-2">
+                     <p style="color:blanchedalmond;"><b><br>Our commitments</b></p>
+                </div>
+            </div>
+            <div class="row" style="background-color: black;">
+                <div class="col-sm-3">
+                        <p style="color:lightslategrey">About</p>
+                </div>
+                <div class="col-sm-2">
+                    <p style="color:lightslategrey">Youtube Go</p>
+                </div>
+                <div class="col-sm-2">
+                    <p style="color:lightslategrey">Developers</p>
+                </div>
+                <div class="col-sm-2">
+                    <p style="color:lightslategrey">Creating for YouTube Kids</p>
+                </div>
+                <div class="col-sm-2">
+                    <p style="color:lightslategrey">Creators for change</p> 
+                </div>
+            </div>
+            <div class="row" style="background-color: black;">
+                <div class="col-sm-3">
+                    <p style="color:lightslategrey">Blog</p> 
+                </div>
+                <div class="col-sm-2">
+                    <p style="color:lightslategrey">YouTubeKids</p>
+                </div>
+                <div class="col-sm-2">
+                    <p style="color:lightslategrey">YouTubeAdvertising</p>
+                </div>
+                <div class="col-sm-2">
+                    <p style="color:lightslategrey">Creator Research</p>
+                 </div>
+                <div class="col-sm-12">
+                    <p style="color:lightslategrey">CSAI Match</p>
+                 </div>
+            </div>
+            <div class="row" style="background-color: black;">
+                <div class="col-sm-3">
+                    <p style="color:lightslategrey">How Youtube Works</p>
+                </div>
+                <div class="col-sm-2">
+                    <p style="color:lightslategrey">YouTube Music</p>
+                </div>
+                <div class="col-sm-2">
+                </div>
+                <div class="col-sm-2">
+                    <p style="color:lightslategrey">Creator Services Directory</p>
+                </div>
+                <div class="col-sm-12">
+                    <p style="color:lightslategrey">Social impact</p>
+                </div>
+            </div>
+            <div class="row" style="background-color: black;">
+                 <div class="col-3">
+                    <p style="color:lightslategrey">Jobs</p>
+                </div>
+                <div class="col-sm-2">
+                    <p style="color:lightslategrey">YouTube Originals</p>
+                </div>
+                <div class="col-sm-2">
+                </div>
+                <div class="col-sm-2">
+                    <p style="color:lightslategrey">YouTube Artists</p>
+                </div>
+                <div class="col-sm-12">
+                 </div>
+            </div>
+            <div class="row" style="background-color: black;">
+                <div class="col-sm-3">
+                    <p style="color:lightslategrey">Press</p>
+                </div>
+                <div class="col-sm-2">
+                    <p style="color:lightslategrey">YouTube Premium</p>
+                </div>
+                <div class="col-sm-2">
+                </div>
+                <div class="col-sm-2">
+                    <p style="color:lightslategrey">YouTube Ceators</p>
+                </div>
+                <div class="col-sm-12">
+                </div>
+            </div>
+            <div class="row" style="background-color:black;">
+                <div class="col-sm-3">
+                    <p style="color:lightslategrey">YouTube Culture & Trends</p>
+                </div>
+                <div class="col-sm-2">
+                    <p style="color:lightslategrey">YouTube Select</p>
+                </div>
+                <div class="col-sm-2">
+                </div>
+                <div class="col-sm-2">
+                    <p style="color:lightslategrey">YouTube Nextup</p>
+                </div>
+                <div class="col-sm-12">
+                          
+                </div>
+            </div>
+            <div class="row" style="background-color: black;">
+                <div class="col-sm-3">
+                </div>
+                <div class="col-sm-2">
+                    <p style="color:lightslategrey">YouTube Studio</p>
+                </div>
+                <div class="col-sm-2">
+                </div>
+                <div class="col-sm-2">
+                    <p style="color:lightslategrey">YouTube VR</p>
+                </div>
+                <div class="col-sm-12">
+                </div>
+            </div>
+            <div class="row" style="background-color: black;">
+                <div class="col-sm-3">
+                </div>
+                <div class="col-sm-2">
+                    <p style="color:lightslategrey">YouTube TV</p>
+                </div>
+                <div class="col-sm-2">
+                </div>
+                <div class="col-sm-2">
+                    
+                </div>
+                <div class="col-sm-12">
+                </div>
+            </div>-->
+            <div class="row" style="background-color: black; border-top: 2px solid gray;">
+                <div class="col-sm-2">
+                    <p>
+                        <br>
+                       <img src="https://th.bing.com/th/id/R.888697fb00f3e9b902ab2314c3a93d00?rik=SG2k903oBpVIjQ&riu=http%3a%2f%2fcdn04.androidauthority.net%2fwp-content%2fuploads%2f2017%2f08%2fnew-youtube-logo.jpg&ehk=y1C%2fuXpCZpXuzGNQdYXSsfx7g2jqs7dZWRnJXuhoK4U%3d&risl=&pid=ImgRaw&r=0" width="100 height="100">
+                        <br>
+                    </p>
+                </div>
+                <div class="col-sm-1">
+                    <p style="color:lightslategrey"><br>Policies & safety</p>
+                </div>
+                <div class="col-sm-1">
+                    <p style="color:lightslategrey"><br>copyright</p> 
+                </div>
+                <div class="col-sm-1">
+                    <p style="color:lightslategrey"><br>Brand Guidelines</p> 
+                </div>
+                <div class="col-sm-1">
+                    <p style="color:lightslategrey"><br>Privacy</p>
+                </div>
+                <div class="col-sm-1">
+                    <p style="color:lightslategrey"><br>Terms</p>
+                </div>
+                <div class="col-sm-2">
+
+                </div>
+                <div class="col-sm-1">
+                    <p>
+                        <img src="https://th.bing.com/th/id/R.94c84a5c5a1668175b0ec6f616790d90?rik=ZWNdqLO%2b5Z2rVA&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_355542.png&ehk=stdp7ewG8F%2fdtaHx6AD2qTtS3v1WSWX6mGMBKf%2bzU%2b0%3d&risl=&pid=ImgRaw&r=0" width="50 height="50">
+                        <br>
+                    </p>
+                </div>
+                <div class="col-sm-1">
+                    <p style="color:lightslategrey"><br>Help</p>
+                </div>
+                <div class="col-sm-1">
+                    <p style="color:whitesmoke"><br>English</p> 
+                    
+                </div> 
+            </div>
+        </div>
+    </body>
+</html>
